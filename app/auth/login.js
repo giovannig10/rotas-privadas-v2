@@ -107,3 +107,72 @@ const styles = StyleSheet.create({
     content: {
     flex: 1,
     justifyContent: 'center',
+    padding: 20,
+    },
+    emoji: {
+    fontSize: 60,
+    textAlign: 'center',
+    marginBottom: 20,
+    },
+    title: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 8,
+    textAlign: 'center',
+    },
+    subtitle: {
+    fontSize: 16,
+    color: '#666',
+    marginBottom: 24,
+    textAlign: 'center',
+    },
+    input: {
+        backgroundColor: '#FFF',
+        borderRadius: 8,
+        padding: 15,
+        marginBottom: 15,
+        fontSize: 16,
+        borderWidth: 1,
+        borderColor: '#ddd',
+        },
+    button: {
+    backgroundColor: '#8257E5',
+    borderRadius: 8,
+    padding: 15,
+    alignItems: 'center',
+    marginTop: 10,
+    minHeight: 50,
+    justifyContent: 'center',
+    },
+    buttonDisabled: {
+        opacity: 0.6,
+    },
+    buttonText: {
+    color: '#FFF',
+    fontSize: 16,
+    fontWeight: 'bold',
+    },
+    registerContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 20,
+    alignItems: 'center',
+    },
+    registerText: {
+    color: '#666',
+    fontSize: 14,
+    },
+    registerLink: {
+    color: '#8257E5',
+    fontSize: 14,
+    fontWeight: 'bold',
+    },
+    infoText: {
+    marginTop: 30,
+    textAlign: 'center',
+    color: '#999',
+    fontSize: 14,
+    paddingHorizontal: 20,
+    },
+});
